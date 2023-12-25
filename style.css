@@ -1,0 +1,491 @@
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-Light.eot');
+    src: url('fonts/CeraPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-Light.woff2') format('woff2'),
+        url('fonts/CeraPro-Light.woff') format('woff'),
+        url('fonts/CeraPro-Light.ttf') format('truetype'),
+        url('fonts/CeraPro-Light.svg#CeraPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}       
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-Regular.eot');
+    src: local('fonts/Cera Pro Regular'), local('CeraPro-Regular'),
+        url('fonts/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-Regular.woff') format('woff'),
+        url('fonts/CeraPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-Medium.eot');
+    src: local('fonts/Cera Pro Medium'), local('CeraPro-Medium'),
+        url('fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-Medium.woff') format('woff'),
+        url('fonts/CeraPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-Bold.eot');
+    src: local('fonts/Cera Pro Bold'), local('CeraPro-Bold'),
+        url('fonts/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-Bold.woff') format('woff'),
+        url('fonts/CeraPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {min-width: 1000px;}
+
+body {
+    background-color: #FF871F;
+    color: #fff;
+    min-width: 1000px;
+}
+
+.darkgreen {
+    background-color: #17301C;
+    height: 160px;
+    flex-shrink: 0;
+}
+
+div.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div.logo {
+    margin-top: 20px;
+}
+div.container0 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div.container1 {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #17301C;
+}
+
+div.container2 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div.container3 {
+    max-width: 100%;
+    
+}
+
+div.main2 {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; justify-content: space-between;
+}
+
+div.menu {
+    width: 55%;
+    text-align: right;
+    font-family: 'Cera Pro';
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+div.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 61px;
+}
+
+div.menu a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+a.menuoption:hover {
+    text-decoration: none;
+    color: #FF871F;
+}
+
+.titles {
+    font-family: 'Cera Pro';
+    font-size: 40px;
+    font-weight: bold;
+}
+
+div.description {
+    display: flex;
+    flex-flow: column;
+    margin-top: 100px;
+}
+
+#bottom {
+    width: 358px;
+    height: 90px;
+    background-image: url(img/knopka.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+a.abottom {
+    font-family: 'Cera Pro';
+    font-size: 24px;
+    font-weight: lighter;
+    width: max-content;
+    text-decoration: none;
+    color: black;
+}
+
+p.abottom {
+    padding-top: 30px;
+    height: 90px;
+    width: 358px;
+    text-align: center;
+}
+
+a.abottom:hover {
+    text-decoration: none;
+}
+
+.main {
+    height: 529;
+    background-color: #17301C;
+    display: flex; justify-content: space-between;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.cryp1 {
+    margin-top: 110px;
+}
+
+#block2 {
+    background-color: #FF871F;
+}
+
+#what {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+#freeblocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.block {
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column;
+    height: 292px;
+    width: 264px;
+    padding-left: 20px;
+    padding-top: 35px;
+}
+
+.minititle {
+    font-family: 'Cera Pro';
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.minitext {
+    font-family: 'Cera Pro';
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+#hares {
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+
+#support {
+    width: 100%;
+    background-color: #17301C;
+}
+
+.main2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ask {
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+}
+
+#minititle2 {
+    font-family: 'Cera Pro';
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#arrow {
+    height: 78px;
+    width: 49px;
+    margin: 15px 0 15px 430px;
+}
+
+#many {
+    font-family: 'Cera Pro';
+    font-size: 32px;
+    font-weight: normal;
+    color: #FF871F;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+#cryp23 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 265px;
+}
+
+#hesay {
+    height: 185px;
+    width: 168px;
+    background-image: url(img/hesay.png);
+}
+
+#p-hesay {
+    padding-left: 25px;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+div.container4 {
+    max-width: 100%;
+}
+
+#main3 {
+    height: 622px;
+    background-image: url(img/merch.png);
+    padding: 50px 64px 86px 66px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+h2.titles {
+    width: max-content;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#positions {
+    display: flex;
+    align-items: normal;
+    justify-content: space-between;
+    width: 866px;
+}
+
+div.position {width: max-content;}
+
+img.img-position {
+    width: 261px;
+    height: 306px;
+    border-radius: 15px;
+}
+
+.under {
+    font-family: 'Cera Pro';
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.underunder {
+    font-family: 'Cera Pro';
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.container5 {
+    width: 100%;
+    background-color: #17301C;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.main4 {
+    width: 1000px;
+    margin-right: auto; margin-left: auto;
+} 
+
+.cryp4 {
+    width: max-content;
+    height: 635px;
+    margin-left: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#cryp4say {
+    background-image: url(img/say1.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-left: 85px;
+    width: 340px;
+    height: 360px;
+    margin-bottom: auto;
+}
+
+#cryp4 {
+    margin-left: -28px;
+    margin-top: auto;
+}
+
+.say {
+    font-size: 32px;
+    color: black;
+    font-family: 'Cera Pro';
+    font-weight: normal;
+}
+
+.he {
+    font-size: 20px;
+    color: black;
+    font-family: 'Cera Pro';
+    font-weight: normal;
+}
+
+.cryp5 {
+    width: max-content;
+    height: 745px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    margin-top: -350px;
+}
+
+#cryp5say {
+    background-image: url(img/say2.png);
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-left: 77px;
+    width: 420px;
+    height: 400px;
+    margin-bottom: auto;
+    margin-left: -15px;
+}
+
+#cryp5 {
+    margin-top: auto;
+}
+
+.cryp6 {
+    width: max-content;
+    height: 506px;
+    margin-left: auto;
+    margin-top: -380px;
+    display: flex;
+    align-items: center;
+}
+
+#cryp6say {
+    background-image: url(img/say3.png);
+    background-repeat: no-repeat;
+    padding-top: 45px;
+    padding-left: 75px;
+    width: 350px;
+    height: 338px;
+    margin-bottom: auto;
+    margin-left: -15px;
+}
+
+#cryp6 {
+    margin-top: auto;
+}
+
+.container6 {
+    width: 100%;
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+
+.main5 {
+    width: 1000px;
+    margin-right: auto; margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+#adress {
+    font-size: 20px;
+    color: black;
+    font-family: 'Cera Pro';
+    font-weight: 500;
+}
+
+#media {
+    width: 238px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+#bottom {
+    transition: 0.5s;
+   }
+#bottom:hover {
+    transform: scale(1.05);
+   }
+
+#a-many {
+    transition: 0.5s;
+   }
+#a-many:hover {
+    transform: scale(1.05);
+   }
+
+.img-position {
+    transition: 0.5s;
+   }
+.img-position:hover {
+    transform: scale(1.05);
+   }
+
+.media {
+    transition: 0.5s;
+   }
+.media:hover {
+    transform: scale(1.125);
+   }
